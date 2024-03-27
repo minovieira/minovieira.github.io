@@ -131,19 +131,19 @@ padding: 18px 0;
 }
 
 #home .content h1::after{
-    content: "Hi, I'm Mino";
-    animation: textanim 15s linear infinite;
+    content: "Olá, eu sou o Mino";
+    animation: textanim 10s linear infinite;
 }
 
 @keyframes textanim{
     25%{
-       content: "I'm a Developer";
+       content: "eu sou Developer, ";
     }
     50%{
-        content: "a Graphic Designer";
+        content: "Graphic Designer";
     }
     75%{
-        content: "and a Beat Maker";
+        content: "e Beat Maker";
     }
 }
 
