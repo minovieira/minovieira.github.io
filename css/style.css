@@ -24,7 +24,7 @@ html{
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color: #353b48;
+  background-color: #22272e;
 }
 
 .navbar{
@@ -51,7 +51,7 @@ html{
 .logo{
     width: 44px;
     height: 32px;
-    background-image: url(../images/myCrtoonPrint.png);
+    background-image: url(../images/Me.png);
     background-size: contain;
 }
 .menu-toggler{
@@ -82,7 +82,7 @@ html{
 }
 
 .navbar-menu a:hover{
-    color: #48dbfb !important;
+    color: #178140 !important;
     border-bottom: 2px solid white;
 }
 
@@ -92,7 +92,7 @@ padding: 18px 0;
 }
 
 .sticky .logo{
-    background-image: url(../images/myCrtoonPrint.png);
+    background-image: url(../images/Me.png);
 }
 
 .sticky .navbar-menu a{
@@ -131,19 +131,19 @@ padding: 18px 0;
 }
 
 #home .content h1::after{
-    content: "Mino";
-    animation: textanim 10s linear infinite;
+    content: "Hi, I'm Mino";
+    animation: textanim 15s linear infinite;
 }
 
 @keyframes textanim{
     25%{
-       content: "a Developer";
+       content: "I'm a Developer";
     }
     50%{
-        content: "a Designer";
+        content: "a Graphic Designer";
     }
     75%{
-        content: "a Beat Maker";
+        content: "and a Beat Maker";
     }
 }
 
@@ -155,7 +155,7 @@ padding: 18px 0;
 }
 
 .sm a:hover{
-    color: #48dbfb;
+    color: #178140;
 }
 
 #home .buttons{
@@ -220,7 +220,7 @@ section{
     position: absolute;
     width: 16px;
     height: 10px;
-    background-color: #48dbfb;
+    background-color: #178140;
     border: 4px solid #f1f1f1;
     left: calc(50% - 12px);
     bottom: -7px;
@@ -289,7 +289,7 @@ section{
     content: "";
     position: absolute;
     height: 6px;
-    background-color: #48dbfb;
+    background-color: #178140;
     bottom: 0;
   }
   
@@ -332,7 +332,7 @@ section{
     width: 65%;
   }
   section.dark{
-    background-color: #353b48;
+    background-color: #22272e;
   }
   
   section.dark .section-title{
@@ -344,7 +344,7 @@ section{
   }
   
   section.dark .section-title::after{
-    border: 4px solid #353b48;
+    border: 4px solid #22272e;
   }
   
   .services{
@@ -356,7 +356,7 @@ section{
   .service{
     width: calc(33% - 20px);
     text-align: center;
-    border: 1px solid #48dbfb;
+    border: 1px solid #178140;
     border-radius: 6px;
     margin: 20px 0;
     padding: 40px 20px;
@@ -366,7 +366,7 @@ section{
   }
   
   .service .icon{
-    color: #48dbfb;
+    color: #178140;
     font-size: 40px;
     margin-bottom: 20px;
     transition: .3s linear;
@@ -378,7 +378,7 @@ section{
   }
   
   .service:hover{
-    background-color: #48dbfb;
+    background-color: #178140;
   }
   
   .service:hover .icon{
@@ -415,7 +415,7 @@ section{
     position: absolute;
     width: 16px;
     height: 16px;
-    background-color: #48dbfb;
+    background-color: #178140;
     left: -28px;
     top: 30px;
     border-radius: 50%;
@@ -452,7 +452,7 @@ section{
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-color: #48dbfbcc;
+    background-color: #178140;
     transition: .2s linear;
     opacity: 0;
     transform: scale(0);
@@ -489,7 +489,7 @@ section{
   .contact-info .item{
     width: calc(33% - 20px);
     height: 160px;
-    background-color: #353b48;
+    background-color: #22272e;
     color: #fff;
     text-align: center;
     border-radius: 4px;
@@ -503,7 +503,7 @@ section{
     height: 100px;
   }
   .contact-info .item:hover{
-    background-color: #48dbfb;
+    background-color: #178140;
   }
   .contact-form{
     display: flex;
@@ -514,7 +514,7 @@ section{
     width: 100%;
     height: 50px;
     margin: 10px 0;
-    background-color: #353b48;
+    background-color: #22272e;
     border: none;
     outline: none;
     padding: 20px;
@@ -532,9 +532,9 @@ section{
   .contact-form .btn{
     width: 180px;
     background-color: transparent;
-    color: #48dbfb;
+    color: #178140;
     font-size: 16px;
-    border: 2px solid #48dbfb;
+    border: 2px solid #178140;
     padding: 0;
     margin-left: auto;
     cursor: pointer;
@@ -544,9 +544,9 @@ section{
   .contact-form .btn2{
     width: 180px;
     background-color: transparent;
-    color: #48dbfb;
+    color: #178140;
     font-size: 16px;
-    border: 2px solid #48dbfb;
+    border: 2px solid #178140;
     padding: 0;
     margin-left: 10px;
     cursor: pointer;
@@ -554,7 +554,7 @@ section{
   }
 
   .contact-form .btn:hover, .contact-form .btn2:hover{
-    background-color: #48dbfb;
+    background-color: #178140;
     color: #fff;
   }
   footer{
@@ -571,7 +571,7 @@ section{
   
   .copyright a{
     font-size: 16px;
-    color: #48dbfb;
+    color: #178140;
     font-weight: 500;
   }
   
@@ -582,7 +582,7 @@ section{
     right: 40px;
     width: 40px;
     height: 40px;
-    background-color: #48dbfb;
+    background-color: #178140;
     border: none;
     border-radius: 6px;
     cursor: pointer;
@@ -601,7 +601,7 @@ section{
       position: fixed;
       height: 100vh;
       width: 100%;
-      background-color: #353b48;
+      background-color: #22272e;
       opacity: 100%;
       top: 0;
       right: -100%;
